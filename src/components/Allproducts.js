@@ -64,8 +64,6 @@ const Allproducts = () => {
         <tbody>
         
         { items !=[] && items.map((item) => {
-             
-             
                   return<>
                    <tr>
                 <th scope="row">{item.itemid}</th>

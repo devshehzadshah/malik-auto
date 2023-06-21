@@ -27,7 +27,6 @@ const Header = () => {
           {user && <>
           <Navbar.Text className='pull-right mr-3 custom_email'> {auth?.currentUser?.email}</Navbar.Text>
            <Navbar.Text className='pull-right ml-2'><button className='btn btn-danger' onClick={signUserOut}>SignOut</button></Navbar.Text></>}
-        
         </Container>
       </Navbar>
       </div>

@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav-link:hover{
+  color: green !important;
+}
+.custom_control{
+  border-radius: 0px !important;
+  padding: 9px !important;
+  color: green !important;
+}
+.custom_control:focus{
+  transition: none !important;
+  border-color: green !important;
+  box-shadow: none !important;
+}
+.malick{
+  font-size: 24px !important;
+  font-family: fangsong !important;
+  color: green !important;
+}
+.backgroud_products{
+  background-image: url(../src/assets/products.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh !important;
+}
+  .custom_form{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+.add_form{
+  color: white !important;
+  background-color: #0000003b !important;
+    padding: 16px !important;
+    border: 1px solid rgba(0, 0, 0, 0.808) !important;
+    border-radius: 7px !important;
+}
+::placeholder{
+  /* Modern browsers */
+  color: white !important;
+}
+.btn{
+  border-radius: 0px !important;
+}
+.custom_email{
+  color: white !important;
+  margin-right: 12px !important;
+}

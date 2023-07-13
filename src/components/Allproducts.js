@@ -49,6 +49,7 @@ const Allproducts = () => {
        draggable
        pauseOnHover
        theme="colored"/>
+       <div className='container'>
       <table className="table table-hover table-dark pl-3">
         <thead>
           <tr>
@@ -80,6 +81,7 @@ const Allproducts = () => {
     
         
       </table>
+      </div>
     </div>
   );
 }
